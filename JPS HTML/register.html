@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+<body bgcolor="cyan">
+</body>
+	<center><h1><u>REGISTRATION FORM</u></h1>
+	<form action="xyz.jsp" method="post" id="form1">
+		<table border="0">
+			<tr><td>Name : </td><td><input type="text" name="uname" value="" size="17" placeholder="USE CAPITAL LETTER"maxlength="30" required/></td></tr>
+			<tr><td>Email ID : </td><td><input type="text" name="email" value="" placeholder="jps1@gmail.com" size="20" maxlength="30" required/></td></tr>
+			<tr><td>Password : </td><td><input type="password" name="upass" value="" size="10" maxlength="30" required/></td></tr>
+			<tr><td>Contact No: </td><td><input type="text" name="mob" value="" size="10" maxlength="10" required/></td></tr>
+			<tr><td>Gender : </td><td><input type="radio" name="gender" value="Male" checked>Male&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="Female">Female</td></tr>
+			<tr><td>DOB : </td><td><input type="date" name="DOB"></td></tr>
+			<tr><td>Languages : </td><td><input type="checkbox" name="lang" value="Odia" checked>Odia&nbsp;&nbsp;&nbsp;<input type="checkbox" name="lang" value="Hindi">Hindi&nbsp;&nbsp;&nbsp;<input type="checkbox" name="lang" value="English">English</td></tr>
+			<tr><td>Hobbies : </td><td><select name="hobby" size="2" multiple>
+				<option value="Story Book" selected>Reading Story Book</option>
+				<option value="Puzzle" >Solving Puzzle</option>
+				<option value="Play" >Playing</option>
+				<option value="Outing" >Outing</option>
+				<option value="Net" >Surfing Internet</option>
+				</select></td></tr>
+		</table>
+		<input type="checkbox" name="accept" value="Yes" required>I Accept the <a href="terms.html" target="main">Terms And Conditions</a><br/><br/>
+		<input type="submit" value="Sign Up"/><br/>
+		Already have an account?<a href="signin.html" target="main"> Sign In</a>
+	</form>
+	</center>
+</html>

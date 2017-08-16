@@ -1,0 +1,43 @@
+.m {
+	text-decoration:none;
+}
+ol {
+	list-style-type:none;
+}
+li {
+	background:#ff9900;
+	width:90px;
+	height:15px;
+	padding:5px;
+	border:1px solid #ff5500;
+	text-align:center;
+	border-radius:5px;
+	text-shadow:2px 2px 2px lightblue;
+}
+li:hover{
+	color:white;
+	background:red;
+}
+table { 
+	border:2px dotted green;
+	padding:10px;
+	border-top-left-radius:15px;
+	border-bottom-right-radius:15px;
+	background:white;
+}
+h1 {
+	text-shadow:2px 2px 5px #888888;
+}
+input[type="submit"]{
+	border:1px solid #000;
+	background:#cccccc;
+	width: 100px;
+	height: 30px;
+}
+input[type="submit"]:hover{
+	background:#5555ff;
+	color:white;
+}
+input[type="text"],input[type="password"],input[type="date"]{
+	background:#cccccc;
+}

@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script>
+			var X=0;
+			function changeText(id)
+			{
+				if(X==0)
+				{
+					document.getElementById(id).innerHTML="College Of Engineering & Technology";
+					X=1;
+				}
+					
+				else
+				{
+					document.getElementById(id).innerHTML="CET";
+					X=0;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<p id="c" onclick="changeText(this)">CET</p>
+		<button onclick="changeText('c')">OK</button>
+	</body>
+</html>
